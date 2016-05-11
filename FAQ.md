@@ -1245,6 +1245,9 @@ CCK2 Wizard以外でFirefox Syncの利用を禁止する方法としては、ア
     lockPref("services.sync.privacyURL", "");
     lockPref("services.sync.statusURL", "");
     lockPref("services.sync.syncKeyHelpURL", "");
+    lockPref("services.sync.fxa.privacyURL", "");
+    lockPref("services.sync.fxa.termsURL", "");
+    lockPref("identity.sync.tokenserver.uri", "");
 
 ### 注意事項
 
